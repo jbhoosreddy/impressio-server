@@ -1,0 +1,23 @@
+{
+  "name": "impressio-server",
+  "version": "1.0.0",
+  "description": "A websocket server which also listens to simple http requests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbhoosreddy/impressio-server.git"
+  },
+  "author": "Jaideep Bhoosreddy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbhoosreddy/impressio-server/issues"
+  },
+  "homepage": "https://github.com/jbhoosreddy/impressio-server#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "socket.io": "^1.5.0"
+  }
+}
