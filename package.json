@@ -4,7 +4,9 @@
   "description": "A websocket server which also listens to simple http requests.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js",
+    "nodemon": "nodemon ./index.js"
   },
   "repository": {
     "type": "git",
